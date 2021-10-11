@@ -11,5 +11,5 @@ class Solver(object):
         Returns:
             None: N/A
         """
-        shown_board = self.board
+
         return None
