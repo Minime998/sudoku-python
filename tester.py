@@ -13,8 +13,8 @@ def sudokuSolver_tester():
         list of lists: new random sudoku board (9x9)
     """
     newboard = []
-    board_size = 81
-    max_take_away = 64
+    board_size = 81  # 9x9 board size
+    max_take_away = 64  # amount that can be taken away and still solved
 
     for x in range(0, 9):
         newboard.append([] * 9)
